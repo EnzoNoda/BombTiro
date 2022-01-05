@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BombCrypto Simulator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bar barA">
+        Common
+        <div class="bar children A">82,87%</div>
+        <div class="bar children" id="Common">0</div>
+      </div>
+      <div class="bar barB">
+        Rare
+        <div class="bar children B">10.36%</div>
+        <div class="bar children" id="Rare">0</div>
+      </div>
+      <div class="bar barC">
+        Super Rare
+        <div class="bar children C">5,18%</div>
+        <div class="bar children" id="SuperRare">0</div>
+      </div>
+      <div class="bar barD">
+        Epic
+        <div class="bar children D">1,04%</div>
+        <div class="bar children" id="Epic">0</div>
+      </div>
+      <div class="bar barE">
+        Legend
+        <div class="bar children E">0,52%</div>
+        <div class="bar children" id="Legend">0</div>
+      </div>
+      <div class="bar barF">
+        Super Legend
+        <div class="bar children F">0,04%</div>
+        <div class="bar children" id="SuperLegend">0</div>
+      </div>
+
+      <button class="tiro" onclick="Tiro() ">1x</button>
+      <button class="tiro" onclick="DezTiros()">10x</button>
+      <div class="count">Total: <span id="count"> 0 </span></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
